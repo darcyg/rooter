@@ -17,7 +17,7 @@ define Package/ext-modem-basic
 	    +kmod-usb-net-cdc-mbim +kmod-usb-net-qmi-wwan +kmod-usb-net-rndis \
 	    +kmod-usb-net-sierrawireless +kmod-usb-ohci +kmod-usb-serial \
 	    +kmod-usb-serial-option +kmod-usb-serial-sierrawireless \
-	    +kmod-usb-uhci +kmod-usb2 +luci-proto-3g +luci \
+	    +kmod-usb-serial-wwan +kmod-usb-uhci +kmod-usb2 +luci-proto-3g +luci \
 	    +usb-modeswitch +wireless-tools +wpad-mini +rmbim
   TITLE:=Basic packages for usbmodems
   PKGARCH:=all
