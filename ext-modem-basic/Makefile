@@ -10,7 +10,7 @@ PKG_RELEASE:=1
 PKG_MAINTAINER:=Created by FB/makefile by finbarr@whirlpool
 include $(INCLUDE_DIR)/package.mk
 
-define Package/ext-rooter-basic
+define Package/ext-modem-basic
   SECTION:=utils
   CATEGORY:=Network
   DEPENDS:=+luci +kmod-usb-net +kmod-usb-net-cdc-ether +kmod-usb-net-huawei-cdc-ncm \
@@ -23,18 +23,13 @@ define Package/ext-rooter-basic
   PKGARCH:=all
 endef
 
-define Package/ext-rooter-basic/description
-  Helper scripts to enable usb modem interfaces
+define Package/ext-modem-basic/description
+  Helper scripts to enable ROOter to manage usb modem interfaces
 endef
 
 
 define Build/Compile
 endef
 
-define Package/ext-modem-basic/install
-	$(CP) ./files/* $(1)/
-
-
-endef
 
 $(eval $(call BuildPackage,ext-modem-basic))
