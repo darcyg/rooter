@@ -13,7 +13,7 @@ include $(INCLUDE_DIR)/package.mk
 define Package/ext-modem-basic
   SECTION:=utils
   CATEGORY:=Network
-  DEPENDS:=+luci +kmod-usb-net +kmod-usb-net-cdc-ether +kmod-usb-net-huawei-cdc-ncm \
+  DEPENDS:=+kmod-usb-net +kmod-usb-net-cdc-ether +kmod-usb-net-huawei-cdc-ncm \
 	    +kmod-usb-net-cdc-mbim +kmod-usb-net-qmi-wwan +kmod-usb-net-rndis \
 	    +kmod-usb-net-sierrawireless +kmod-usb-ohci +kmod-usb-serial \
 	    +kmod-usb-serial-option +kmod-usb-serial-sierrawireless \
