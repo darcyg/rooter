@@ -13,7 +13,7 @@ include $(INCLUDE_DIR)/package.mk
 define Package/ext-finbarr-addons
   SECTION:=utils
   CATEGORY:=Network
-  DEPENDS:=+luci +luci-mod-rpc +luci-app-ddns
+  DEPENDS:=+luci +luci-mod-rpc +luci-app-ddns +luci-app-sqm
   TITLE:=Extra packages for my router
   PKGARCH:=all
 endef
