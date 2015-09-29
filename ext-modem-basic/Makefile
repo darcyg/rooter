@@ -24,7 +24,7 @@ define Package/ext-modem-basic
 endef
 
 define Package/ext-modem-basic/description
-  Helper scripts to enable ROOter to manage usb modem interfaces
+  Helper scripts to enable usb modem interfaces
 endef
 
 
